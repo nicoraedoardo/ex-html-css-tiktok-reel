@@ -56,8 +56,10 @@ footer {
 	right: 0;
 	top: 40%;
 
+
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	
 }
 
 /* ---------------------
@@ -81,3 +83,28 @@ da rimuovere una volta concluso
 }
 
 /* --------------------- */
+
+.reel-header {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 5px;
+}
+
+.sidebar-logo {
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	float: right;
+}
+
+.bi-heart-fill::before {
+    content: "\f415";
+    padding: 15px;
+    font-size: 25px;
+}
