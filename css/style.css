@@ -101,6 +101,7 @@ da rimuovere una volta concluso
 	display: flex;
 	flex-direction: column;
 	float: right;
+	gap: 30px;
 }
 
 .bi-heart-fill::before {
@@ -108,3 +109,22 @@ da rimuovere una volta concluso
     padding: 15px;
     font-size: 25px;
 }
+
+.bi-chat-dots::before {
+	content: "\f24a";
+	padding: 15px;
+    font-size: 25px;
+}
+
+.bi-bookmark-fill::before {
+	content: "\F199";
+	padding: 15px;
+    font-size: 25px;
+}
+
+.bi-diamond::before {
+    content: "\F2F1";
+	padding: 15px;
+    font-size: 25px;
+}
+
